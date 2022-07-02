@@ -1,0 +1,13 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "Digital Curriculum Vitae",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ma-xbo",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
