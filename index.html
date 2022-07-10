@@ -25,6 +25,7 @@
 
   <body class="flex flex-col">
     <main>
+      <!-- Section for Home -->
       <section
         id="section_home"
         class="flex flex-col justify-center items-center h-screen gap-y-2 lg:gap-y-5 xl:gap-y-10 bg-zinc-50 dark:bg-zinc-700"
@@ -38,10 +39,14 @@
             />
           </div>
         </div>
-        <h2 class="text-sm md:text-base xl:text-3xl text-black dark:text-zinc-50 font-bold">
+        <h2
+          class="text-sm md:text-base xl:text-3xl text-black dark:text-zinc-50 font-bold"
+        >
           Maximilian Bossert
         </h2>
-        <h4 class="text-xs md:text-sm xl:text-lg text-black dark:text-zinc-50 font-semibold">
+        <h4
+          class="text-xs md:text-sm xl:text-lg text-black dark:text-zinc-50 font-semibold"
+        >
           Master of Engineering | Automation Enthusiast | Hobby Programmer
         </h4>
 
@@ -80,18 +85,26 @@
         </div>
       </section>
 
+      <!-- Section with different articles for the individual topics -->
       <section
         id="section_details"
-        class="py-10 bg-gradient-to-t from-indigo-100 via-purple-100 to-pink-100"
+        class="py-10 bg-gradient-to-b from-indigo-100 via-purple-100 to-pink-100 dark:from-gray-500 dark:to-neutral-500"
       >
-        <article id="article_skills" class="mx-8 p-2 bg-zinc-50 dark:bg-zinc-700 rounded-lg">
-          <h2 class="py-2 font-semibold text-lg text-black dark:text-zinc-50">Technical Skills</h2>
-
+        <!-- Skills -->
+        <article
+          id="article_skills"
+          class="mx-8 p-2 bg-zinc-50 dark:bg-zinc-700 rounded-lg"
+        >
+          <h2 class="py-2 font-semibold text-lg text-black dark:text-zinc-50">
+            Technical Skills
+          </h2>
           <div class="flex flex-row flex-wrap">
             <fieldset
               class="my-2 mx-1 p-2 border-2 w-max text-base border-solid border-zinc-600 rounded-md"
             >
-              <legend class="px-2 text-base text-black dark:text-zinc-50 font-bold">
+              <legend
+                class="px-2 text-base text-black dark:text-zinc-50 font-bold"
+              >
                 Programming and Markup Languages
               </legend>
 
@@ -136,7 +149,9 @@
             <fieldset
               class="my-2 mx-1 p-2 border-2 border-solid border-zinc-600 rounded-md"
             >
-              <legend class="px-2 text-base text-black dark:text-zinc-50 font-bold">
+              <legend
+                class="px-2 text-base text-black dark:text-zinc-50 font-bold"
+              >
                 Frameworks and Libraries
               </legend>
               <div
@@ -179,7 +194,11 @@
             <fieldset
               class="my-2 mx-1 p-2 border-2 border-solid border-zinc-600 rounded-md"
             >
-              <legend class="px-2 text-base font-bold text-black dark:text-zinc-100">DevOps</legend>
+              <legend
+                class="px-2 text-base font-bold text-black dark:text-zinc-100"
+              >
+                DevOps
+              </legend>
               <div
                 class="inline-flex items-center justify-center m-1 px-3 py-2 text-sm font-bold leading-none text-white bg-stone-400 rounded-full"
               >
@@ -202,36 +221,78 @@
                 Docker Compose
               </div>
               <div
-                class="inline-flex items-center justify-center m-1 px-3 py-2 text-sm font-bold leading-none text-zinc-50 bg-zinc-700 rounded-full"
+                class="inline-flex items-center justify-center m-1 px-3 py-2 text-sm font-bold leading-none text-zinc-50 bg-zinc-700 dark:bg-zinc-500 rounded-full"
               >
                 Kubernetes
               </div>
             </fieldset>
           </div>
 
-          <h2 class="py-2 text-lg font-semibold">Soft Skills</h2>
+          <h2 class="py-2 font-semibold text-lg text-black dark:text-zinc-50">Soft Skills</h2>
           <div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Teamwork</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Customer service</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Problem solving</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Business trend awareness</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Determination and focus on achieving goals</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Logical and creative thinking</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Structured way of working</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Willingness to learn</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Digital Literacy</div>
-            <div class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold bg-green-100 rounded-full">Digital Learning </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Teamwork
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Customer service
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Problem solving
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Business trend awareness
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Determination and focus on achieving goals
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Logical and creative thinking
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Structured way of working
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Willingness to learn
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Digital Literacy
+            </div>
+            <div
+              class="inline-flex items-center justify-center m-2 px-2 py-1 text-base font-bold text-gray-900 dark:text-gray-800 bg-green-100 dark:bg-emerald-200 rounded-full"
+            >
+              Digital Learning
+            </div>
           </div>
 
-          <h2 class="py-2 text-lg font-semibold">Languages</h2>
+          <h2 class="py-2 font-semibold text-lg text-black dark:text-zinc-50">Languages</h2>
           <div class="my-2 mx-1">
             <div class="flex flex-row justify-between items-end mb-1">
-              <p class="text-md font-medium text-white dark:text-white">German</p>
-              <p class="text-xs italic font-normal dark:text-white">Native</p>
+              <p class="text-md font-medium text-black dark:text-zinc-50">
+                German
+              </p>
+              <p class="text-xs italic font-normal text-black dark:text-zinc-50">Native</p>
             </div>
             <div class="w-full h-4 bg-gray-200 dark:bg-gray-700 rounded-full">
               <div
-                class="h-4 bg-rose-500 rounded-full dark:bg-red-300"
+                class="h-4 bg-rose-500 dark:bg-red-400 rounded-full"
                 style="width: 100%"
               ></div>
             </div>
@@ -239,13 +300,12 @@
 
           <div class="my-2 mx-1">
             <div class="flex flex-row justify-between items-end mb-1">
-              <!-- ICON -->
-              <p class="text-md font-medium dark:text-white">English</p>
-              <p class="text-xs italic font-normal dark:text-white">Fluent</p>
+              <p class="text-md font-medium text-black dark:text-zinc-50">English</p>
+              <p class="text-xs italic font-normal text-black dark:text-zinc-50">Fluent</p>
             </div>
-            <div class="w-full h-4 bg-gray-200 dark:bg-gray-700 rounded-full">
+            <div class="w-full h-4 bg-gray-200 dark:bg-gray-600 rounded-full">
               <div
-                class="h-4 bg-blue-500 rounded-full dark:bg-blue-300"
+                class="h-4 bg-blue-500 dark:bg-blue-400 rounded-full"
                 style="width: 95%"
               ></div>
             </div>
